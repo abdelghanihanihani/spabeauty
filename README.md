@@ -1,27 +1,33 @@
 # Spabeauty
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This Spabeauty App is a modern and responsive web application designed to provide users with an intuitive and engaging experience for exploring and booking beauty and wellness services. Built using Angular 8 and styled with Bootstrap, this app showcases a clean, professional, and user-friendly interface tailored for service providers and customers alike.
 
-## Development server
+**Please support this project by simply putting a Github star ⭐. 🙏 Thanks**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies
 
-## Code scaffolding
+- Frontend Framework: Angular 8
+- UI Framework: Bootstrap for responsive and modern design
+- Routing: Angular Router for navigation within the SPA
+- State Management: Services and RxJS for managing application state and reactive programming
+- CSS Preprocessing: SCSS for modular and maintainable stylesheets
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `npm install` to install all the required dependencies
 
-## Running unit tests
+Then run `ng serve` to start a dev server.
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Home page
 
-## Running end-to-end tests
+![home](https://github.com/abdelghanihanihani/spabeauty/blob/master/src/assets/readme/home.PNG)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Create task page
 
-## Further help
+![create](https://github.com/abdelghanihanihani/spabeauty/blob/master/src/assets/readme/treatments1.PNG)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Online Demo
+
+You can try the online demo of this Angular 11 CRUD [here](https://angular-tasktodo-app.herokuapp.com/).

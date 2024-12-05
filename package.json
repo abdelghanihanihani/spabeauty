@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -40,7 +40,7 @@
     "@types/jquery": "^3.5.0",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
-    "jasmine-core": "~3.4.0",
+    "jasmine-core": "^3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
     "karma-chrome-launcher": "~2.2.0",
