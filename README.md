@@ -23,6 +23,7 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 ## Home page
 
 ![home](https://github.com/abdelghanihanihani/spabeauty/blob/master/src/assets/readme/home.PNG)
+<img width="1340" alt="home" src="https://github.com/user-attachments/assets/e6202012-0c7c-4909-8f46-a90b3c4c5bdf">
 
 ## Create task page
 
