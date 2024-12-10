@@ -9,8 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start-bw": "ng serve -o",
-    "prod:web": "ng build spabeauty --prod",
-    "prod:mob": "ng build spabeautyMob --prod"
+    "prod:web": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng build spabeauty --prod",
+    "prod:mob": "ng build spabeautyMob --prod",
+    "deploy": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng deploy --base-href=/spabeauty/"
   },
   "private": true,
   "dependencies": {
@@ -39,6 +40,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/jquery": "^3.5.0",
     "@types/node": "~8.9.4",
+    "angular-cli-ghpages": "^2.0.3",
     "codelyzer": "^5.0.0",
     "jasmine-core": "^3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
