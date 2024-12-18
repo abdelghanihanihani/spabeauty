@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start-bw": "ng serve -o",
-    "prod:web": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng build --output-path docs --base-href /spabeauty/",
+    "prod:web": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng build --prod --output-path docs --base-href /spabeauty/",
     "prod:mob": "ng build spabeautyMob --prod",
     "deploy": "node --openssl-legacy-provider ./node_modules/@angular/cli/bin/ng deploy --base-href=/spabeauty/"
   },
